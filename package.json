@@ -1,0 +1,18 @@
+{
+  "name": "backend-cac",
+  "version": "1.0.0",
+  "description": "- Open the empty folder in the vscode\r - write `npm init -y`/. (it is just initiate the package.json file which is made by us )",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Bisworanjan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
