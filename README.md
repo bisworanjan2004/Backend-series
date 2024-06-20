@@ -11,3 +11,11 @@
 ### Why should we have to install the Nodemon package
 
 - Whenever we are doing any modification in our code it is not getting reloaded by our browser so to make it simple we are adding the Nodemon pakage in our folder.
+
+## We can fetch the api data in the form of object in our response route 
+
+- e.g ``app.get('/github',(req,res)=>{``
+    ``res.json(githubData);``
+``})``
+
+- here `res.json(githubData)` is used to fetch the api data in our page .
